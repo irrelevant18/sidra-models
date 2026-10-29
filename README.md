@@ -22,3 +22,16 @@ Recite Mode follows a user's Quran recitation on the device with
 | ---------------------- | ------------------------------------- | ---------------------------------------------- | ----------- |
 | `recite-model-v1`      | `ggml-tarteel-base-ar-quran.bin`      | GGML f16                                       | 147,951,465 |
 | `recite-model-q8_0-v1` | `ggml-tarteel-base-ar-quran-q8_0.bin` | the f16 quantized with `whisper-quantize q8_0` | 81,768,585  |
+
+SHA-256:
+
+- `ggml-tarteel-base-ar-quran.bin`: `aaebca10e2a65a6dda073a6b3ac59900f91887628acf872c565a0198ee850ead`
+- `ggml-tarteel-base-ar-quran-q8_0.bin`: `72194195f7d280adebec57acf2c6e01e209484322ec1cec21c275a3c0b1e3d77`
+
+Download links:
+
+- <https://github.com/irrelevant18/sidra-models/releases/download/recite-model-v1/ggml-tarteel-base-ar-quran.bin>
+- <https://github.com/irrelevant18/sidra-models/releases/download/recite-model-q8_0-v1/ggml-tarteel-base-ar-quran-q8_0.bin>
+
+A release file is never replaced in place: a new model gets a new release tag, so every app
+version keeps downloading exactly the file it was built for.
